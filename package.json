@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node --watch src/server.js",
     "lint": "eslint src/*.js",
-    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
